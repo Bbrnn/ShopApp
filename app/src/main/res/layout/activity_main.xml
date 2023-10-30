@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="260dp"
+    android:background="@drawable/box">
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:text="ITEM"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:text="PRICE"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:text="VAT 16%"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:text="ACTUAL PRICE"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/milkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button"
+            android:padding="1dp"
+            android:text="MILK"
+            android:textSize="20sp">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/milkP"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/milkvat"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/milkactualprice"
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sugarBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:text="SUGAR"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            android:padding="1dp"
+            ></Button>
+
+        <TextView
+            android:id="@+id/sugarP"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/sugarvat"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/sugaractualprice"
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/breadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:text="BREAD"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            android:padding="1dp"
+            ></Button>
+
+        <TextView
+            android:id="@+id/breadP"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/breadvat"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/breadactualprice"
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/flourBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:text="FLOUR"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            android:padding="1dp"
+            ></Button>
+
+        <TextView
+            android:id="@+id/flourP"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/flourvat"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/flouractualprice"
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/grandBtn"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button"
+            android:padding="1dp"
+            android:text="GRAND TOTAL"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:id="@+id/grandtotalprice"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/discountBtn"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button"
+            android:padding="1dp"
+            android:text="DISCOUNT"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:id="@+id/totalDiscount"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/netBtn"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button"
+            android:padding="1dp"
+            android:text="NET TOTAL"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:id="@+id/nettotalprice"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/button_background"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+

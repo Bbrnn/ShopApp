@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/box.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FEFFFF" /> <!-- Background color (red in this example) -->
+    <corners android:radius="0dp" /> <!-- Rounded corners (adjust as needed) -->
+    <stroke android:width="3dp" android:color="#1F8831" /> <!-- Border color (white in this example) -->
+
+</shape>
